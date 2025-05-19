@@ -62,11 +62,11 @@ body {
 .content-pair {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
-    margin-bottom: 1rem;
     flex-wrap: wrap;
+    text-align: left;
 }
 
 .content-pair.reverse {
@@ -79,11 +79,12 @@ body {
 }
 
 .content-image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
-    flex: 1;
     border: 1px solid black;
     border-radius: 5px;
+    object-fit: contain;
 }
 
 hr {

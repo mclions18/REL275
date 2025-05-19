@@ -79,6 +79,10 @@ body {
     flex: 1;
 }
 
+.content-pair.reverse {
+    flex-direction: row-reverse;
+}
+
 
 hr {
     border: none;

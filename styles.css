@@ -70,13 +70,13 @@ body {
 }
 
 .content-image {
-    width: 100%;
-    max-width: 300px; 
+    width: auto;
+    max-width: 300px;
     height: auto;
     border: 1px solid black;
     border-radius: 5px;
     object-fit: contain;
-    flex: 0 0 auto;
+    flex-shrink: 0;
 }
 
 .text-box {

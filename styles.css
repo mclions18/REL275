@@ -61,11 +61,11 @@ body {
 
 .content-pair {
     display: flex;
-    flex-wrap: nowrap; 
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2rem;
+    flex-wrap: wrap;
     text-align: left;
 }
 
@@ -92,11 +92,4 @@ hr {
     border: none;
     border-top: 2px solid #ccc;
     margin: 1.5rem 0;
-}
-
-.content-pair p {
-    background: lightcoral;
-}
-.content-image {
-    background: lightblue;
 }

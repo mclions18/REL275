@@ -63,32 +63,36 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .content-image {
-    flex: 1 1 40%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px; 
     height: auto;
     border: 1px solid black;
     border-radius: 5px;
     object-fit: contain;
+    flex: 0 0 auto;
 }
 
 .text-box {
-    flex: 1 1 40%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    min-width: 250px;
+    max-width: 600px;
 }
 
 .text-box p {
-    font-size: 24px;
+    font-size: 36px;
     margin: 0;
+    text-align: center;
 }
 
 hr {
